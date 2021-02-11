@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Lucida Grande";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .clear {
+    clear: left;
+  }
+
+  .container {
+    max-width: 1000px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    
+  }
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .logo {
+    width: 124px;
+    margin-top: 20px;
+    color: white;
+  }
+  
+  .header-left {
+    float: left;
+    
+  }
+  
+  .header-right {
+    float: right;
+    margin-right:-25px;
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  
+  .header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  } 
+
+  .top-wrapper {
+    padding: 80px 0 80px 0;
+    background-image: url(bg.JPG);
+    background-size: cover;
+    color: white;
+    
+    
+  }
+  
+  .top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    
+  }
+  
+ 
+  .intro{
+    list-style: none;
+    margin: 0px;
+    padding: 60px 0px;
+    
+    display: flex;
+  }
+
+  .img{
+    color: white;
+    height: 300px;
+    line-height: 80px;
+   
+    text-align: center;
+  }
+ .about{
+  color: white;
+  height: 400px;
+  line-height: 80px;
+  
+ }
+
+.intro div{
+  flex: auto;
+}
+.img img{
+  height:300px;
+  width: 220px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border:10px solid white;
+
+}
+
+
+.contents {
+  height: 500px;
+  margin-top: 30px;
+}
+
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+  margin-left: 40px;
+}
+.contents-item img{
+  height: 200px;
+}
+
+.contents-item {
+  float: left;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.contents-item p {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.contents-item2 img{
+  height: 200px;
+}
+
+.contents-item2 {
+  float: left;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.contents-item2 p {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.internship{
+  color: white;
+  height: 300px;
+  line-height: 80px;
+  background-color: #ff8db3;
+  margin:30px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+
+}
+
+.experience{
+  color: white;
+  height: 300px;
+  line-height: 80px;
+  background-color: #88e7ce;
+  margin:30px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.intro-con{
+  padding-left: 20px;
+  padding-right: 20px ;
+}
+
+.intro-con ul li{
+  padding:0px;
+}
+
+footer{
+  background-color: #34495E;
+  margin-bottom: 0px;
+}
+footer ul {
+  list-style-type: none;
+  display: inline-block;
+}
+footer li a  {
+  color: white;
+  text-decoration: none;
+}
